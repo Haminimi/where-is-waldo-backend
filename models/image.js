@@ -12,6 +12,10 @@ const ImageSchema = new Schema({
 			maxY: { type: Number, required: true },
 		},
 	],
+	dimensions: {
+		width: { type: Number, required: true },
+		height: { type: Number, required: true },
+	},
 });
 
 module.exports = mongoose.model('Images', ImageSchema);
