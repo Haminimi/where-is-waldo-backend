@@ -3,7 +3,7 @@ const router = express.Router();
 const Image = require('../models/image');
 
 router.get('/', (req, res, next) => {
-	res.json('Where is Waldo API');
+	res.json({ welcomeMessage: 'Where is Waldo API' });
 });
 
 router.post('/images', async (req, res, next) => {
