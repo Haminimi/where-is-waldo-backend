@@ -16,6 +16,7 @@ You can check out [the game here](https://where-is-waldo-rouge.vercel.app/), and
 - Visual Studio Code
 ## Covered Topics
 **This section mentions the main topics covered during project work and prior lessons**
+- cURL and Postman
 - Testing with Supertest
 ## Author
 - [GitHub](https://github.com/Haminimi)
