@@ -12,7 +12,12 @@ const scoresRouter = require('./routes/score');
 
 const app = express();
 
-app.use(cors());
+const corsOptions = {
+	origin: 'https://where-is-waldo-rouge.vercel.app',
+	optionsSuccessStatus: 200,
+};
+
+app.use(cors(corsOptions));
 if (process.env.NODE_ENV === 'development') {
 	app.use(logger('dev'));
 }
