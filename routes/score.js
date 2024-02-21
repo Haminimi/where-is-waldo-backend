@@ -47,7 +47,7 @@ router.post(
 				res.json({ error: errors.array() });
 			} else {
 				await score.save();
-				res.json('Score submitted');
+				res.json({ message: 'Score submitted' });
 			}
 		} catch (err) {
 			return next(err);
