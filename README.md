@@ -11,9 +11,10 @@ You can check out [the game here](https://where-is-waldo-rouge.vercel.app/), and
 - MongoDB
 
 **Tools**
-- cURL and Postman
-- Git
 - Visual Studio Code
+- Git
+- cURL and Postman
+- Jest/Supertest
 ## Covered Topics
 **This section mentions the main topics covered during project work and prior lessons**
 - cURL and Postman
